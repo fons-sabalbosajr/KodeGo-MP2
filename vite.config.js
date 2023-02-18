@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  port: 8000
+  port: 8000,
+  base: '/KodeGo-MP2/'
 })
